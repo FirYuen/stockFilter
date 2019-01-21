@@ -156,6 +156,7 @@ var vm = new Vue({
             })
         },
         upload:function () {
+            this.stockData=[]
             var resultFile = document.getElementById("uploadedJson").files[0];
             var reader = new FileReader();
                          
